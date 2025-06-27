@@ -1,5 +1,4 @@
-```
-from dash import Dash, dcc, html, Input, Output, State
+<pre>```from dash import Dash, dcc, html, Input, Output, State
 import requests
 import plotly.graph_objs as go
 
@@ -92,5 +91,4 @@ def update_forecast(n_clicks, city):
         return go.Figure(), go.Figure(), "", f"Error processing data: {str(e)}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
-```
+    app.run(debug=True)```</pre>
