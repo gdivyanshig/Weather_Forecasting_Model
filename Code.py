@@ -1,3 +1,4 @@
+```
 from dash import Dash, dcc, html, Input, Output, State
 import requests
 import plotly.graph_objs as go
@@ -92,3 +93,4 @@ def update_forecast(n_clicks, city):
 
 if __name__ == '__main__':
     app.run(debug=True)
+```
